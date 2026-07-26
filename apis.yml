@@ -1,7 +1,26 @@
 aid: dezhentech
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dezhentech.png
 name: dezhentech
-description: dezhentech is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Dezhen Technology (德臻) is a Shanghai-based healthcare information technology
+  company providing informatization solutions for public hospitals and medical institutions
+  across China. Its portfolio spans hospital operations management centers, integrated
+  electronic medical record (EMR) systems, information integration platforms, hospital
+  data centers and big-data analytics, refined operations management dashboards, EMR
+  interoperability testing, and domestic (localized) technology transformation of core
+  hospital systems. Dezhen is a portfolio company of Qiming Venture Partners. As of this
+  profile the company publishes a corporate marketing site but no public developer portal,
+  API documentation, or machine-readable API specifications.'
 url: https://raw.githubusercontent.com/api-evangelist/dezhentech/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Healthcare
+- Health IT
+- Hospital Information Systems
+- Electronic Medical Records
+- Medical
+- Data Integration
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/dezhentech-domain-security.yml
 - type: Website
   url: https://dezhentech.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
